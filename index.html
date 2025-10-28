@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WFY Solutions | AI Automation & Business Intelligence</title>
+    <meta name="description" content="Transform your business with AI-powered automation, machine learning solutions, and intelligent process optimization.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .services h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #667eea;
+        }
+        
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+        }
+        
+        .service-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .about h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #667eea;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+        }
+        
+        .tech-badge {
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: #f8f9fa;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #667eea;
+        }
+        
+        .contact-info {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .contact-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 40px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: #cbd5e0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-section a:hover {
+            color: #667eea;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #4a5568;
+            color: #cbd5e0;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1.1em;
+            }
+            
+            .services h2, .about h2, .contact h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>WFY Solutions</h1>
+            <p>AI-Powered Automation & Business Intelligence</p>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>🤖 AI Automation</h3>
+                    <p>Streamline operations with intelligent automation powered by cutting-edge LLMs and machine learning. Reduce costs by 30-60% while improving accuracy.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>📊 Business Intelligence</h3>
+                    <p>Transform data into actionable insights with advanced analytics, predictive modeling, and custom dashboards that drive informed decision-making.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>💡 Machine Learning Solutions</h3>
+                    <p>Deploy custom ML models for predictive analytics, pattern recognition, and intelligent decision systems with 70%+ prediction accuracy.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>🔄 Process Optimization</h3>
+                    <p>Eliminate bottlenecks and reduce processing time by up to 62% through intelligent workflow automation and system integration.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>🔗 API Integration</h3>
+                    <p>Connect your systems seamlessly with custom API solutions, enabling real-time data flow and automated workflows across platforms.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>📈 Financial Analytics</h3>
+                    <p>Leverage 40+ years of financial services expertise with AI-enhanced analysis, risk modeling, and revenue optimization strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About WFY Solutions</h2>
+            <div class="about-content">
+                <p>Founded by William Young, WFY Solutions combines 40+ years of financial services expertise with cutting-edge AI and machine learning technologies. We specialize in transforming traditional business processes into intelligent, automated systems that deliver measurable results.</p>
+                
+                <p style="margin-top: 20px;">Our mission is to make enterprise-level AI automation accessible to businesses of all sizes, delivering solutions that are practical, cost-effective, and tailored to your unique needs.</p>
+                
+                <h3 style="margin-top: 40px; color: #667eea;">Technology Stack</h3>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">ChatGPT</span>
+                    <span class="tech-badge">Claude AI</span>
+                    <span class="tech-badge">Google Gemini</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">FastAPI</span>
+                    <span class="tech-badge">Power BI</span>
+                    <span class="tech-badge">Cloudflare</span>
+                    <span class="tech-badge">Git/GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <p>📍 <strong>Location:</strong> Morrisville, Vermont</p>
+                <p>💼 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/wfyoung2ai" class="contact-link" target="_blank">linkedin.com/in/wfyoung2ai</a></p>
+                <p style="margin-top: 30px;">Ready to transform your business with AI? Let's discuss how WFY Solutions can help you achieve your automation and intelligence goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WFY Solutions</h3>
+                    <p>AI-Powered Automation & Business Intelligence Solutions</p>
+                    <p style="margin-top: 15px;">Morrisville, Vermont</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>AI Automation</li>
+                        <li>Business Intelligence</li>
+                        <li>Machine Learning</li>
+                        <li>Process Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="copyright.html">Copyright</a></li>
+                        <li><a href="cookie-notice.html">Cookie Notice</a></li>
+                        <li><a href="security.html">Security Policy</a></li>
+                        <li><a href="modern-slavery.html">Modern Slavery Statement</a></li>
+                        <li><a href="accessibility.html">Web Accessibility</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/wfyoung2ai" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WFY Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
