@@ -3,8 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WFY Solutions | AI Automation & Business Intelligence</title>
-    <meta name="description" content="Transform your business with AI-powered automation, machine learning solutions, and intelligent process optimization.">
+    
+    <!-- Primary Meta Tags -->
+    <title>WFY Solutions | AI-Powered Business Automation & Intelligence</title>
+    <meta name="title" content="WFY Solutions | AI-Powered Business Automation & Intelligence">
+    <meta name="description" content="Transform your business with AI-powered automation and analytics. FREE consultation. 30-60% cost reduction, 70%+ accuracy, $5K-50K hidden revenue recovery. Supporting veterans, homeless individuals, and children with 10% of revenue.">
+    <meta name="keywords" content="AI automation, business intelligence, machine learning, BARS AI, process automation, predictive analytics, business optimization, WaveSI, AI consulting, Vermont">
+    <meta name="author" content="William Young, WFY Solutions">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://wfysolutions.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wfysolutions.com/">
+    <meta property="og:title" content="WFY Solutions | AI-Powered Business Automation & Intelligence">
+    <meta property="og:description" content="Transform your business with AI-powered automation and analytics. FREE consultation. 30-60% cost reduction, 70%+ accuracy. Supporting veterans with 10% of revenue.">
+    <meta property="og:image" content="https://wfysolutions.com/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="WFY Solutions">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://wfysolutions.com/">
+    <meta property="twitter:title" content="WFY Solutions | AI-Powered Business Automation & Intelligence">
+    <meta property="twitter:description" content="Transform your business with AI-powered automation and analytics. FREE consultation. Supporting veterans with 10% of revenue.">
+    <meta property="twitter:image" content="https://wfysolutions.com/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "WFY Solutions",
+      "image": "https://wfysolutions.com/logo.png",
+      "@id": "https://wfysolutions.com",
+      "url": "https://wfysolutions.com",
+      "telephone": "+1-802-227-4616",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Morrisville",
+        "addressRegion": "VT",
+        "postalCode": "05661",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.5595,
+        "longitude": -72.5987
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/wfyoung2ai/",
+        "https://wfy2.com"
+      ],
+      "priceRange": "$500 - $7,500+",
+      "description": "AI-powered business automation and intelligence solutions. Specializing in BARS AI, machine learning, and process optimization.",
+      "founder": {
+        "@type": "Person",
+        "name": "William Young",
+        "jobTitle": "Founder & Chief Technology Officer"
+      },
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Automation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "BARS AI",
+              "description": "Business Automated Revenue System - Complete business intelligence platform"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "WaveSI Trading System",
+              "description": "Proprietary technical analysis platform with 70%+ accuracy"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom AI Solutions",
+              "description": "Bespoke automation and intelligence systems"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
     <style>
         * {
             margin: 0;
@@ -16,6 +124,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #333;
+            background: #f8f9fa;
         }
         
         .container {
@@ -26,316 +135,918 @@
         
         /* Header */
         header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        /* FREE Badge */
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .free-badge {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin: 1.5rem 0;
+            animation: pulse 2s infinite;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+        }
+        
+        /* Hero Section */
+        .hero {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 80px 0;
+            padding: 100px 0;
             text-align: center;
         }
         
-        header h1 {
+        .hero h1 {
             font-size: 3em;
             margin-bottom: 20px;
-            font-weight: 700;
+            line-height: 1.2;
         }
         
-        header p {
+        .hero p {
             font-size: 1.3em;
+            margin-bottom: 15px;
             opacity: 0.95;
         }
         
-        /* Services Section */
-        .services {
-            padding: 80px 0;
-            background: #f8f9fa;
-        }
-        
-        .services h2 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 50px;
-            color: #667eea;
-        }
-        
-        .service-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        
-        .service-card {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-        }
-        
-        .service-card h3 {
-            color: #667eea;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-        }
-        
-        /* About Section */
-        .about {
-            padding: 80px 0;
-            background: white;
-        }
-        
-        .about h2 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            color: #667eea;
-        }
-        
-        .about-content {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
+        .mission-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 15px 30px;
+            border-radius: 50px;
+            margin-top: 20px;
             font-size: 1.1em;
-            line-height: 1.8;
-        }
-        
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 40px;
-        }
-        
-        .tech-badge {
-            background: #667eea;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-size: 0.9em;
-        }
-        
-        /* Contact Section */
-        .contact {
-            padding: 80px 0;
-            background: #f8f9fa;
-            text-align: center;
-        }
-        
-        .contact h2 {
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            color: #667eea;
-        }
-        
-        .contact-info {
-            font-size: 1.2em;
-            margin-bottom: 20px;
-        }
-        
-        .contact-link {
-            color: #667eea;
-            text-decoration: none;
             font-weight: 600;
         }
         
-        .contact-link:hover {
+        .motto-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.3);
+            padding: 20px 40px;
+            border-radius: 50px;
+            margin-top: 30px;
+            font-size: 1.4em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border: 3px solid rgba(255,255,255,0.5);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-size: 1.1em;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #1e3c72;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            border-top: 4px solid;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .stat-card:nth-child(1) { border-top-color: #667eea; }
+        .stat-card:nth-child(2) { border-top-color: #4CAF50; }
+        .stat-card:nth-child(3) { border-top-color: #ff9800; }
+        .stat-card:nth-child(4) { border-top-color: #e91e63; }
+        .stat-card:nth-child(5) { border-top-color: #9c27b0; }
+        .stat-card:nth-child(6) { border-top-color: #00bcd4; }
+        .stat-card:nth-child(7) { border-top-color: #ff5722; }
+        .stat-card:nth-child(8) { border-top-color: #3f51b5; }
+        .stat-card:nth-child(9) { border-top-color: #8bc34a; }
+        .stat-card:nth-child(10) { border-top-color: #ffc107; }
+        .stat-card:nth-child(11) { border-top-color: #795548; }
+        .stat-card:nth-child(12) { border-top-color: #607d8b; }
+        
+        .stat-card:nth-child(1) .stat-number { color: #667eea; }
+        .stat-card:nth-child(2) .stat-number { color: #4CAF50; }
+        .stat-card:nth-child(3) .stat-number { color: #ff9800; }
+        .stat-card:nth-child(4) .stat-number { color: #e91e63; }
+        .stat-card:nth-child(5) .stat-number { color: #9c27b0; }
+        .stat-card:nth-child(6) .stat-number { color: #00bcd4; }
+        .stat-card:nth-child(7) .stat-number { color: #ff5722; }
+        .stat-card:nth-child(8) .stat-number { color: #3f51b5; }
+        .stat-card:nth-child(9) .stat-number { color: #8bc34a; }
+        .stat-card:nth-child(10) .stat-number { color: #ffc107; }
+        .stat-card:nth-child(11) .stat-number { color: #795548; }
+        .stat-card:nth-child(12) .stat-number { color: #607d8b; }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .stat-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+        
+        .stat-description {
+            color: #666;
+            font-size: 1em;
+        }
+        
+        /* Products Grid */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-left: 5px solid;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .product-card:nth-child(1) { border-left-color: #667eea; }
+        .product-card:nth-child(2) { border-left-color: #4CAF50; }
+        .product-card:nth-child(3) { border-left-color: #ff9800; }
+        .product-card:nth-child(4) { border-left-color: #e91e63; }
+        
+        .product-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .product-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #1e3c72;
+        }
+        
+        .product-card p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .product-features {
+            list-style: none;
+            margin-top: 20px;
+        }
+        
+        .product-features li {
+            padding: 8px 0;
+            color: #555;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .product-features li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        /* Service Packages */
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .package-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            border: 3px solid transparent;
+        }
+        
+        .package-card:hover {
+            transform: scale(1.05);
+            border-color: #667eea;
+        }
+        
+        .package-card.featured {
+            border-color: #667eea;
+            background: linear-gradient(to bottom, #f8f9ff 0%, white 100%);
+        }
+        
+        .package-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .package-price {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 30px;
+        }
+        
+        .package-price span {
+            font-size: 0.4em;
+            color: #666;
+        }
+        
+        .package-features {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        
+        .package-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+        
+        .package-features li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .about-text h3 {
+            font-size: 2em;
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        
+        .stat-box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-box .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .stat-box .stat-label {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-top: 50px;
+        }
+        
+        .contact-info h3,
+        .contact-form h3 {
+            font-size: 1.8em;
+            color: #1e3c72;
+            margin-bottom: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            align-items: start;
+        }
+        
+        .contact-item span {
+            font-size: 2em;
+        }
+        
+        .contact-item a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .contact-item a:hover {
             text-decoration: underline;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+        
+        .submit-button {
+            background: #667eea;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        
+        .submit-button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
         }
         
         /* Footer */
         footer {
-            background: #2d3748;
+            background: #1e3c72;
             color: white;
-            padding: 40px 0 20px;
-        }
-        
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .footer-section h3 {
-            margin-bottom: 15px;
-            color: #667eea;
-        }
-        
-        .footer-section ul {
-            list-style: none;
-        }
-        
-        .footer-section ul li {
-            margin-bottom: 10px;
-        }
-        
-        .footer-section a {
-            color: #cbd5e0;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        
-        .footer-section a:hover {
-            color: #667eea;
-        }
-        
-        .footer-bottom {
+            padding: 40px 0;
             text-align: center;
-            padding-top: 20px;
-            border-top: 1px solid #4a5568;
-            color: #cbd5e0;
         }
         
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .footer-links a:hover {
+            opacity: 0.7;
+        }
+        
+        /* Responsive Design */
         @media (max-width: 768px) {
-            header h1 {
+            .hero h1 {
                 font-size: 2em;
             }
             
-            header p {
-                font-size: 1.1em;
+            .about-content,
+            .contact-grid {
+                grid-template-columns: 1fr;
             }
             
-            .services h2, .about h2, .contact h2 {
-                font-size: 2em;
+            .nav-links {
+                gap: 15px;
+            }
+            
+            .packages-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="container">
-            <h1>WFY Solutions</h1>
-            <p>AI-Powered Automation & Business Intelligence</p>
-        </div>
+        <nav class="container">
+            <div class="logo">WFY Solutions</div>
+            <ul class="nav-links">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#packages">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://koalendar.com/e/meet-with-william-young" target="_blank" rel="noopener" style="background: #3498db; padding: 8px 20px; border-radius: 20px;">📅 FREE Call</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Services Section -->
-    <section class="services">
+    <section class="hero">
         <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <h3>🤖 AI Automation</h3>
-                    <p>Streamline operations with intelligent automation powered by cutting-edge LLMs and machine learning. Reduce costs by 30-60% while improving accuracy.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h3>📊 Business Intelligence</h3>
-                    <p>Transform data into actionable insights with advanced analytics, predictive modeling, and custom dashboards that drive informed decision-making.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h3>💡 Machine Learning Solutions</h3>
-                    <p>Deploy custom ML models for predictive analytics, pattern recognition, and intelligent decision systems with 70%+ prediction accuracy.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h3>🔄 Process Optimization</h3>
-                    <p>Eliminate bottlenecks and reduce processing time by up to 62% through intelligent workflow automation and system integration.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h3>🔗 API Integration</h3>
-                    <p>Connect your systems seamlessly with custom API solutions, enabling real-time data flow and automated workflows across platforms.</p>
-                </div>
-                
-                <div class="service-card">
-                    <h3>📈 Financial Analytics</h3>
-                    <p>Leverage 40+ years of financial services expertise with AI-enhanced analysis, risk modeling, and revenue optimization strategies.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <h2>About WFY Solutions</h2>
-            <div class="about-content">
-                <p>Founded by William Young, WFY Solutions combines 40+ years of financial services expertise with cutting-edge AI and machine learning technologies. We specialize in transforming traditional business processes into intelligent, automated systems that deliver measurable results.</p>
-                
-                <p style="margin-top: 20px;">Our mission is to make enterprise-level AI automation accessible to businesses of all sizes, delivering solutions that are practical, cost-effective, and tailored to your unique needs.</p>
-                
-                <h3 style="margin-top: 40px; color: #667eea;">Technology Stack</h3>
-                <div class="tech-stack">
-                    <span class="tech-badge">Python</span>
-                    <span class="tech-badge">JavaScript</span>
-                    <span class="tech-badge">React</span>
-                    <span class="tech-badge">TensorFlow</span>
-                    <span class="tech-badge">ChatGPT</span>
-                    <span class="tech-badge">Claude AI</span>
-                    <span class="tech-badge">Google Gemini</span>
-                    <span class="tech-badge">PostgreSQL</span>
-                    <span class="tech-badge">FastAPI</span>
-                    <span class="tech-badge">Power BI</span>
-                    <span class="tech-badge">Cloudflare</span>
-                    <span class="tech-badge">Git/GitHub</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <div class="contact-info">
-                <p>📍 <strong>Location:</strong> Morrisville, Vermont</p>
-                <p>💼 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/wfyoung2ai" class="contact-link" target="_blank">linkedin.com/in/wfyoung2ai</a></p>
-                <p style="margin-top: 30px;">Ready to transform your business with AI? Let's discuss how WFY Solutions can help you achieve your automation and intelligence goals.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>WFY Solutions</h3>
-                    <p>AI-Powered Automation & Business Intelligence Solutions</p>
-                    <p style="margin-top: 15px;">Morrisville, Vermont</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul>
-                        <li>AI Automation</li>
-                        <li>Business Intelligence</li>
-                        <li>Machine Learning</li>
-                        <li>Process Optimization</li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Legal</h3>
-                    <ul>
-                        <li><a href="terms.html">Terms of Use</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="copyright.html">Copyright</a></li>
-                        <li><a href="cookie-notice.html">Cookie Notice</a></li>
-                        <li><a href="security.html">Security Policy</a></li>
-                        <li><a href="modern-slavery.html">Modern Slavery Statement</a></li>
-                        <li><a href="accessibility.html">Web Accessibility</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Connect</h3>
-                    <ul>
-                        <li><a href="https://linkedin.com/in/wfyoung2ai" target="_blank">LinkedIn</a></li>
-                    </ul>
-                </div>
+            <h1>Transform Your Business with<br>AI-Powered Intelligence</h1>
+            
+            <div class="free-badge">🆓 FREE Initial Consultation - No Charge, No Obligation</div>
+            
+            <p>Advanced automation and analytics solutions built by experts, serving businesses with purpose.</p>
+            <p>We build systems that work while you sleep.</p>
+            
+            <div class="mission-badge">
+                🎖️ 10% of all revenue supports veterans, homeless individuals, and children in need
             </div>
             
-            <div class="footer-bottom">
-                <p>&copy; 2025 WFY Solutions. All rights reserved.</p>
+            <div class="motto-badge">
+                We Do What's Right 100% Every Time
             </div>
+            
+            <br><br>
+            
+            <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener">
+                📞 Schedule Your FREE Consultation
+            </a>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container">
+            <h2 class="section-title">How WFY Solutions Creates Real Results</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">30-60%</div>
+                    <div class="stat-title">Reduce Manual Work</div>
+                    <div class="stat-description">Automate processes saving 5-15 hours per week. Your team focuses on growth, not busy work.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">70%+</div>
+                    <div class="stat-title">System Accuracy</div>
+                    <div class="stat-description">WaveSI prediction rate in live testing. Make decisions backed by proven intelligence.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">$5K-50K</div>
+                    <div class="stat-title">Hidden Revenue</div>
+                    <div class="stat-description">Average recovery per business in first 90 days. Money already yours, just hidden.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">10%</div>
+                    <div class="stat-title">To Community</div>
+                    <div class="stat-description">Revenue supporting veterans, homeless individuals, and children's education.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">40+</div>
+                    <div class="stat-title">Years Experience</div>
+                    <div class="stat-description">Business operations, finance, and technology. Real-world expertise that delivers.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-title">Always Working</div>
+                    <div class="stat-description">Systems that run while you sleep. Automation that never takes a day off.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">2-8 Hours</div>
+                    <div class="stat-title">Saved Weekly</div>
+                    <div class="stat-description">Per employee using automation. That's 100-400 hours per year reclaimed.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">14-30 Days</div>
+                    <div class="stat-title">To Full ROI</div>
+                    <div class="stat-description">Most clients see complete return on investment in first month.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">90%+</div>
+                    <div class="stat-title">Error Reduction</div>
+                    <div class="stat-description">Automated systems eliminate human error in data entry and reporting.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">5+ LLMs</div>
+                    <div class="stat-title">AI Platforms</div>
+                    <div class="stat-description">Expertise across ChatGPT, Claude, Gemini, DeepSeek, Perplexity, and Grok.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-title">Data Security</div>
+                    <div class="stat-description">Enterprise-grade encryption. Your data never leaves your control.</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">Same Day</div>
+                    <div class="stat-title">Response Time</div>
+                    <div class="stat-description">Questions answered within hours, not days. You're never waiting.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2 class="section-title">Our Products & Solutions</h2>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">📊</div>
+                    <h3>BARS AI</h3>
+                    <p><strong>Business Automated Revenue System</strong> - Your complete business intelligence platform with predictive analytics and real-time optimization.</p>
+                    <ul class="product-features">
+                        <li>Real-time business health scoring</li>
+                        <li>Predictive analytics & forecasting</li>
+                        <li>Automated performance tracking</li>
+                        <li>Custom dashboards & reporting</li>
+                        <li>Integration with existing systems</li>
+                    </ul>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">📝</div>
+                    <h3>4-Square Note Machine</h3>
+                    <p>AI-powered task management using the proven Eisenhower Matrix. Prioritize what matters, eliminate what doesn't.</p>
+                    <ul class="product-features">
+                        <li>AI-assisted prioritization</li>
+                        <li>Urgent vs. Important sorting</li>
+                        <li>Visual quadrant dashboard</li>
+                        <li>Team collaboration features</li>
+                        <li>Progress tracking & analytics</li>
+                    </ul>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">🌊</div>
+                    <h3>WaveSI Trading System</h3>
+                    <p>Proprietary technical analysis platform with 70%+ accuracy. Originally built for financial markets, now available for business analytics.</p>
+                    <ul class="product-features">
+                        <li>Proprietary wave analysis</li>
+                        <li>Multi-timeframe signals</li>
+                        <li>Convergence zone detection</li>
+                        <li>Automated alerts</li>
+                        <li>Custom indicator development</li>
+                    </ul>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">🤖</div>
+                    <h3>Custom AI Solutions</h3>
+                    <p>Bespoke automation and intelligence systems tailored to your specific business needs and workflows.</p>
+                    <ul class="product-features">
+                        <li>Process automation</li>
+                        <li>Custom integrations</li>
+                        <li>Data pipeline development</li>
+                        <li>ML model training</li>
+                        <li>Ongoing optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" style="background: white;">
+        <div class="container">
+            <h2 class="section-title">Service Packages</h2>
+            <p style="text-align: center; font-size: 1.2em; color: #666; margin-bottom: 50px;">
+                Choose the support level that fits your business needs
+            </p>
+            
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-name">Bronze</div>
+                    <div class="package-price">$500<span>/month</span></div>
+                    <ul class="package-features">
+                        <li>Email support (48hr response)</li>
+                        <li>Monthly system updates</li>
+                        <li>Basic monitoring</li>
+                        <li>Quarterly optimization review</li>
+                        <li>Documentation access</li>
+                        <li>Community forum access</li>
+                    </ul>
+                    <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener">Get Started</a>
+                </div>
+
+                <div class="package-card featured">
+                    <div class="package-name">Silver</div>
+                    <div class="package-price">$2,500<span>/month</span></div>
+                    <ul class="package-features">
+                        <li><strong>Everything in Bronze, plus:</strong></li>
+                        <li>Priority email support (24hr response)</li>
+                        <li>Weekly system optimization</li>
+                        <li>Advanced monitoring & alerts</li>
+                        <li>Monthly strategy calls</li>
+                        <li>Custom feature requests</li>
+                        <li>Training for your team</li>
+                    </ul>
+                    <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener">Most Popular</a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-name">Gold</div>
+                    <div class="package-price">$7,500<span>/month</span></div>
+                    <ul class="package-features">
+                        <li><strong>Everything in Silver, plus:</strong></li>
+                        <li>24/7 priority support</li>
+                        <li>Daily system optimization</li>
+                        <li>Dedicated account manager</li>
+                        <li>Weekly strategy sessions</li>
+                        <li>Unlimited custom development</li>
+                        <li>White-glove onboarding</li>
+                        <li>Guaranteed SLA</li>
+                    </ul>
+                    <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener">Premium Support</a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-name">Platinum</div>
+                    <div class="package-price">Custom</div>
+                    <ul class="package-features">
+                        <li><strong>Enterprise-level support</strong></li>
+                        <li>Dedicated development team</li>
+                        <li>Custom SLA agreements</li>
+                        <li>On-site implementation</li>
+                        <li>Integration with existing systems</li>
+                        <li>Multi-location support</li>
+                        <li>Executive reporting</li>
+                        <li>Strategic advisory services</li>
+                    </ul>
+                    <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About WFY Solutions</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Mission-Driven Technology</h3>
+                    <p>WFY Solutions was founded by Will Young, a technologist with over 40 years of business experience and a deep commitment to serving others. Coming from a military family and having served as Finance Officer in Civil Air Patrol USAF Auxiliary, the mission of service is woven into everything we do.</p>
+                    
+                    <p><strong>We believe business success and social impact go hand in hand.</strong> That's why 10% of all our revenue directly supports:</p>
+                    
+                    <ul style="list-style: none; margin: 20px 0;">
+                        <li style="padding: 10px 0;">🎖️ Veterans transitioning to civilian life</li>
+                        <li style="padding: 10px 0;">🏠 Homeless individuals seeking stability</li>
+                        <li style="padding: 10px 0;">👶 Children's educational programs</li>
+                    </ul>
+                    
+                    <p>When you work with WFY Solutions, you're not just improving your business - you're making a real difference in your community.</p>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Years Combined Experience</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">10%</div>
+                        <div class="stat-label">Revenue to Community</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">70%+</div>
+                        <div class="stat-label">System Accuracy Rate</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">System Monitoring</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background: white;">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div style="text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem; border-radius: 15px; margin-bottom: 4rem; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);">
+                <h3 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">Ready to Transform Your Business?</h3>
+                <p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem;">
+                    📞 Schedule Your FREE 30-Minute Consultation
+                </p>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">
+                    No charge • No pressure • No obligation • Just honest advice
+                </p>
+                <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener" style="font-size: 1.3rem; padding: 1.2rem 3rem; background: white; color: #667eea;">
+                    Book Your FREE Call Now →
+                </a>
+                <p style="margin-top: 1.5rem; font-size: 1rem; opacity: 0.8;">We're here when you need us</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <span>📞</span>
+                        <div>
+                            <strong>Phone</strong><br>
+                            <a href="tel:+18022274616">(802) 227-4616</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="mailto:info@wfysolutions.com">info@wfysolutions.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>💬</span>
+                        <div>
+                            <strong>WhatsApp</strong><br>
+                            <a href="https://wa.me/18027306840" target="_blank" rel="noopener">(802) 730-6840</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>📅</span>
+                        <div>
+                            <strong>Schedule a Call</strong><br>
+                            <a href="https://koalendar.com/e/meet-with-william-young" target="_blank" rel="noopener">Book FREE Consultation</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>🌐</span>
+                        <div>
+                            <strong>Portfolio</strong><br>
+                            <a href="https://wfy2.com" target="_blank">wfy2.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>💼</span>
+                        <div>
+                            <strong>LinkedIn</strong><br>
+                            <a href="https://linkedin.com/in/wfyoung2ai/" target="_blank">linkedin.com/in/wfyoung2ai</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <div>
+                            <strong>Location</strong><br>
+                            Morrisville, VT 05661<br>
+                            <em>Serving clients worldwide</em>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Ready to Connect?</h3>
+                    <p style="margin-bottom: 30px; color: #666; line-height: 1.8;">We make it easy to get in touch. Choose the method that works best for you:</p>
+                    
+                    <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 20px;">
+                        <h4 style="color: #1e3c72; margin-bottom: 20px;">📞 Schedule a FREE Call</h4>
+                        <p style="margin-bottom: 20px; color: #666;">The fastest way to get started - book a time that works for you.</p>
+                        <a href="https://koalendar.com/e/meet-with-william-young" class="cta-button" target="_blank" rel="noopener" style="display: inline-block;">Book Your FREE Consultation</a>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-bottom: 20px;">
+                        <h4 style="color: #1e3c72; margin-bottom: 20px;">📧 Send an Email</h4>
+                        <p style="margin-bottom: 20px; color: #666;">Prefer email? Reach out directly and we'll respond within 24 hours.</p>
+                        <a href="mailto:info@wfysolutions.com" class="cta-button" style="display: inline-block; background: #667eea; color: white;">Email Us</a>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 30px; border-radius: 15px;">
+                        <h4 style="color: #1e3c72; margin-bottom: 20px;">☎️ Call or Text</h4>
+                        <p style="margin-bottom: 20px; color: #666;">Sometimes a quick conversation is best. Give us a call or text.</p>
+                        <a href="tel:+18022274616" class="cta-button" style="display: inline-block; background: #27ae60; color: white;">(802) 227-4616</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WFY Solutions, LLC. All rights reserved.</p>
+            <p><strong>Mission: Build systems that work. Support those who serve.</strong></p>
+            <div class="footer-links">
+                <a href="#products">Products</a>
+                <a href="#packages">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="https://koalendar.com/e/meet-with-william-young" target="_blank" rel="noopener">📅 Free Call</a>
+                <a href="https://wfy2.com" target="_blank">Founder</a>
+                <a href="https://barsanalytics.com" target="_blank">BARS AI</a>
+            </div>
+            <p style="margin-top: 20px; font-size: 0.9em;">
+                🎖️ 10% of revenue supports veterans, homeless individuals, and children in need
+            </p>
         </div>
     </footer>
 </body>
